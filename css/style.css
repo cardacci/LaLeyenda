@@ -634,10 +634,6 @@ header.page-header .main-menu{
     text-transform: uppercase;
 }
 
-/*.main-menu .navbar-nav li:last-child{
-	background-color: transparent !important;
-}*/
-
 .main-menu .navbar-nav li a:hover{
 	background-color: #a10000;
 	border-radius: 50px;
