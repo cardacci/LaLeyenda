@@ -4,10 +4,22 @@
    ++++++++++++ */
 
 
-span.highlight-texts{
+span.highlight-texts {
 	color:  #FFF;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+.highlight-texts-wrapper {
+	background: rgba(0,0,0,0.5);
+	border-radius: 1rem;
+	display: inline-block;
+	padding-bottom: 3rem;
+}
+
+.laleyenda-wrapper {
+	width: 30rem;
+}
+
 span.highlight-text{
 	color:  #111;
 }
@@ -15,6 +27,7 @@ span.highlight-text{
 span.highlight-text-inverted{
     color:  #fff;
 }
+
 .button-solid{
 	background-color:  #111111;
 }
