@@ -1,20 +1,20 @@
 jQuery(document).ready(function() {
     "use strict";
 
-
 /* ------- Preloader ------ */
 jQuery(window).load(function() {
     jQuery(".status").fadeOut();
     jQuery(".preloader").delay(1000).fadeOut("slow");
 });
 
-
 /* -------- Appears Menu ------ */
 	$(window).on('ready , scroll', function() {
 	    if ($(window).scrollTop() > 30) {
 	        $('.main-menu').addClass('minified');
+          $('.navbar-nav').addClass('minified-nav');
 	    } else {
-	        $('.main-menu').removeClass('minified');
+          $('.main-menu').removeClass('minified');
+	        $('.navbar-nav').removeClass('minified-nav');
 	    }
 	});
 
@@ -93,7 +93,6 @@ $('#clients-carousel').owlCarousel({
 	    enabled:true
 	  }
 	});
-
 
 /* --------- Carousel Slider ---------- */
 
