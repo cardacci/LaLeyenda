@@ -97,7 +97,7 @@ $('#clients-carousel').owlCarousel({
 /* --------- Carousel Slider ---------- */
 
 	// Feature Works
-	$("#teams").owlCarousel({
+	$(".teams").owlCarousel({
 		items : 3,
 		itemsDesktop: [1199,1],
 		itemsDesktopSmall: [979,1],
