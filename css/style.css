@@ -1262,6 +1262,10 @@ header.page-header .main-menu.minified {
     float: left;
 }
 
+.menus .menu .food.beer {
+    background-color: #F3DF92;
+}
+
 .menus.white-bg .menu .food {
     color: #23292c;
 }
@@ -1589,7 +1593,7 @@ header.page-header .main-menu.minified {
     display: inline-block;
     white-space: normal;
     margin-top: 9px;
-    color: #60B10F;
+    color: #A10000;
 }
 
 .menus.menus-full.style3 .menu .food .food-details {
