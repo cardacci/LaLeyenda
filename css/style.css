@@ -653,7 +653,7 @@ header.page-header .main-menu {
 }
 
 .main-menu .navbar-nav li a:hover {
-	background-color: #a10000;
+	background-color: #A10000;
 	border-radius: 50px;
 	color: #ffffbf;
 }
@@ -1114,10 +1114,6 @@ header.page-header .main-menu.minified {
 	padding: 10px 0 55px;
 }
 
-.teams-section span {
-	font-size: 28px;
-}
-
 .teams-section h2 span {
     font-size: 62px;
     color: #80cc0c;
@@ -1189,11 +1185,16 @@ header.page-header .main-menu.minified {
 	margin-bottom: 20px;
 }
 
-.teams p.client-info {
-	font-size: 14px;
+.teams p.client-address {
+	font-size: 1rem;
+	color: #A10000;
+}
+
+.teams p.client-name {
+	font-size: 1.5rem;
 	font-weight: 700;
 	margin-bottom: 0;
-	color: #80cc0c;
+	color: #A10000;
 }
 
 /*------Menue------*/
