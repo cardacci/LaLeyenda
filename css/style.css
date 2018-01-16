@@ -104,7 +104,7 @@ h3 {
 }
 
 h4 {
-	font-size: 18px;
+	font-size: 1.3rem;
 	color: #949494;
 }
 
@@ -1132,11 +1132,11 @@ header.page-header .main-menu.minified {
 }
 
 .teams-slides img {
+	border-radius: 1rem;
+	height: 200px;
 	margin-bottom: 20px;
 	margin-top: 15px;
 	width: 200px;
-	height: 200px;
-	border: 2px solid #fff;
 }
 
 .bg-video-wrapper {
