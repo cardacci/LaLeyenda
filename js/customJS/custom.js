@@ -172,3 +172,12 @@ $(window).stellar({
   });
 
 });
+
+/* ------------ Date ------------- */
+function getCurrentYear() {
+	var now = new Date();
+
+	return now.getFullYear();
+}
+
+$('.since-year').text('La Leyenda® 2003-' + getCurrentYear());
